@@ -4,7 +4,7 @@
  * [4] 寻找两个正序数组的中位数
  */
 
-/* 
+/*
     数组合并
 
 */
@@ -19,16 +19,16 @@ impl Solution {
         let len = all.len();
         let mut res = 0.0 as f64;
         let div = len % 2;
-        println!("div {:#?}", all);
         let min = len / 2 as usize;
-        
         if div == 0 {
-            res = ((all[min-1] + all[min]) / 2) as f64;
+            let sum = (all[min - 1] + all[min]) as f64;
+            let tmp = sum / 2.0;
+            res = tmp as f64;
         } else {
             res = all[min] as f64;
         }
+
         res
     }
 }
 // @lc code=end
-
