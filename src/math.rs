@@ -23,7 +23,7 @@ pub fn fib(n: usize) -> usize {
 
 // 翻转整数
 
-pub fn reverse_int(n: isize) -> isize {}
+// pub fn reverse_int(n: isize) -> isize {}
 
 mod tests {
     use super::*;
