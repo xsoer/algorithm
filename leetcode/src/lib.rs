@@ -1,6 +1,3 @@
-mod math;
-// mod search;
-mod sort;
 #[cfg(test)]
 mod tests {
     #[test]
