@@ -110,14 +110,6 @@ where
     quick(arr, r + 1, right);
 }
 
-// 计数排序
-pub fn counting_sort<T>(arr: &mut Vec<T>)
-where
-    T: PartialEq + PartialOrd + Copy,
-{
-    
-}
-
 mod tests {
     use super::*;
     type DataType<'a> = (

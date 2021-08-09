@@ -1,6 +1,10 @@
-mod math;
-mod search;
-mod sort;
+pub mod convert;
+mod linked_list;
+pub mod math;
+pub mod random;
+pub mod search;
+pub mod sort;
+
 #[cfg(test)]
 mod tests {
     #[test]

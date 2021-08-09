@@ -1,4 +1,3 @@
-use std::ops::{Div, Sub};
 
 // 顺序查找
 pub fn sequence_search<T>(arr: &Vec<T>, value: T) -> Option<usize>

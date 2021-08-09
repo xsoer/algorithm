@@ -1,4 +1,5 @@
 // 最大公约数(greatest common divisor)
+// 辗转相除法
 pub fn gcd(a: usize, b: usize) -> usize {
     if b == 0 {
         return a;
@@ -13,6 +14,7 @@ pub fn lcm(a: usize, b: usize) -> usize {
 }
 
 // Fibonacci
+// 波非那切数列
 // 求第n个数
 pub fn fib(n: usize) -> usize {
     if n < 2 {
