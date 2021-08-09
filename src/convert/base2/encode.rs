@@ -1,4 +1,5 @@
-pub fn encode(n: isize) -> String {
+// 十进制转二进制
+pub fn encode10(n: isize) -> String {
     // 如果输入0，直接返回0
     if n == 0 {
         return "0".to_owned();
@@ -24,7 +25,7 @@ mod tests {
     fn test_base2_encode() {
         let num = 20;
         for i in 0..num {
-            let res = encode(i);
+            let res = encode10(i);
             println!("num={}, res={}", i, res);
             // assert_eq!(res, "11".to_owned());
         }

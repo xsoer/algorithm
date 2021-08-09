@@ -1,5 +1,4 @@
 pub mod convert;
-mod linked_list;
 pub mod math;
 pub mod random;
 pub mod search;
