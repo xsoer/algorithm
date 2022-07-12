@@ -110,6 +110,7 @@ where
     quick(arr, r + 1, right);
 }
 
+#[cfg(test)]
 mod tests {
     use super::*;
     type DataType<'a> = (

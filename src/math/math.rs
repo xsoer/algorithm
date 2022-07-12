@@ -27,6 +27,7 @@ pub fn fib(n: usize) -> usize {
 
 // pub fn reverse_int(n: isize) -> isize {}
 
+#[cfg(test)]
 mod tests {
     use super::*;
 

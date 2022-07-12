@@ -53,6 +53,7 @@ pub fn insertion_search(arr: &Vec<usize>, value: usize) -> Option<usize> {
     None
 }
 
+#[cfg(test)]
 mod tests {
     use super::*;
 
